@@ -1,0 +1,23 @@
+.pdf-viewer-component {
+
+  & .word-block {
+    z-index: 1;
+    fill: var(--color-blue-200);
+    opacity: .35;
+
+    transition: all .1s;
+
+    &:hover {
+      fill: var(--color-blue-500);
+      opacity: .5;
+    }
+  }
+
+  & .word-block-sentence-like-boundary {
+    z-index: 0;
+    pointer-events: none;
+
+    stroke: var(--color-blue-400);
+    stroke-width: 4;
+  }
+}
