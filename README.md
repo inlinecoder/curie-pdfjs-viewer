@@ -1,5 +1,7 @@
 # PDFJS word and sentence highlight demo
 
+![](./README-DEMO.gif)
+
 ## Get up and running
 1. Clone
 2.
